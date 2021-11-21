@@ -9,7 +9,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Credits
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
+| 140810200022  | Osmond Haylim   |
 | 140810xx00xx  | Jane Doe    |
 | 140810xx00xx  | Lorem Ipsum |
 
