@@ -7,15 +7,15 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 **Please create a description for this project here**
 
 ## Credits
-| NPM           | Name                   |
-| ------------- |------------------------|
-| 140810200022  | Osmond Haylim          |
-| 140810200024  | Jonathan Victor Goklas |
-| 140810200002  | Rommel Malik Kusnadi   |
+| NPM          | Name                   |
+| ------------ | ---------------------- |
+| 140810200022 | Osmond Haylim          |
+| 140810200024 | Jonathan Victor Goklas |
+| 140810200002 | Rommel Malik Kusnadi   |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (23/11/2021)** 
-   -  Inisialisasi produk
+   -  Inisialisasi gradle dan javafx
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from 17/11/2021 until 23/11/2021)** 
    - N/A
