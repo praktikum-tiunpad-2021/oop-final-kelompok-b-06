@@ -29,7 +29,8 @@
 Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
 
 ## Next Sprint Backlog (Sprint 3)
-| ID  | Title/Desc      | Asignee  |
-| --- | --------------- | -------- |
-| 3.1 | Preparing the x | Jane Doe |
-| 3.2 | Make the x      | John Doe |
+| ID  | Title/Desc          | Asignee  |
+| --- | ------------------- | -------- |
+| 3.1 | Buat sistem skor    | Rommel   |
+| 3.2 | Buat instruksi main | Jonathan |
+| 3.3 | Buat Liderbord      | Osmond   |
