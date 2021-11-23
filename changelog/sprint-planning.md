@@ -9,25 +9,27 @@
 | 140810200002 | Rommel Malik Kusnadi   |
 
 ## Sprint Backlog Keseluruhan 
-| ID  | Title/Desc                                     | Asignee  |
-| --- | ---------------------------------------------- | -------- |
-| 1.1 | Buat Board Snek                                | Jonathan |
-| 1.2 | Buat object Snek                               | Rommel   |
-| 1.3 | Buat logika Snek                               | Osmond   |
-| 2.1 | Buat objek fuud                                | Rommel   |
-| 2.2 | Buat logika fuud                               | Jonathan |
-| 2.3 | Buat input jalan Snek                          | Osmond   |
-| 3.1 | Buat sistem skor                               | Rommel   |
-| 3.2 | Buat instruksi main                            | Jonathan |
-| 3.3 | Buat Liderbord                                 | Osmond   |
+| ID  | Title/Desc            | Asignee  |
+| --- | --------------------- | -------- |
+| 1.1 | Inisiasi projek       | Jonathan |
+| 1.2 | Buat Board Snek       | Jonathan |
+| 1.3 | Buat object Snek      | Rommel   |
+| 1.4 | Buat logika Snek      | Osmond   |
+| 2.1 | Buat objek fuud       | Rommel   |
+| 2.2 | Buat logika fuud      | Jonathan |
+| 2.3 | Buat input jalan Snek | Osmond   |
+| 3.1 | Buat sistem skor      | Rommel   |
+| 3.2 | Buat instruksi main   | Jonathan |
+| 3.3 | Buat Liderbord        | Osmond   |
 
 ## Sprint Backlog Plan (Sprint 1)
-| ID  | Title/Desc      | Asignee  |
-| --- | --------------- | -------- |
-| 1.1 | Buat Board Snek                                | Jonathan |
-| 1.2 | Buat object Snek                               | Rommel   |
-| 1.3 | Buat logika Snek                               | Osmond   |
+| ID  | Title/Desc       | Asignee  |
+| --- | ---------------- | -------- |
+| 1.1 | Inisiasi projek  | Jonathan |
+| 1.2 | Buat Board Snek  | Jonathan |
+| 1.3 | Buat object Snek | Rommel   |
+| 1.4 | Buat logika Snek | Osmond   |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint masih terlalu mepet sehingga sprint-1 tidak efektif.

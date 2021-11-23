@@ -1,24 +1,25 @@
 # Scrum Report (Sprint 3)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 01/12/2021 to 07/12/2021
 
 ## Team (Insert your name)
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| NPM          | Name                   |
+| ------------ | ---------------------- |
+| 140810200002 | Rommel Malik Kusnadi   |
+| 140810200022 | Osmond Haylim          |
+| 140810200024 | Jonathan Victor Goklas |
 
 ## Sprint Overview
-| Planned (n)   | Completed (n) |
-| ------------- |-------------- |
-| n             | n             |
+| Planned (n) | Completed (n) |
+| ----------- | ------------- |
+| 3           | n             |
 
 ## Sprint 3 Backlog
 
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 3.1 | Preparing the x | Jane Doe | DONE |
-| 3.2 | Make the x | John Doe | FAILED |
+| ID  | Title/Desc          | Asignee  | Status |
+| --- | ------------------- | -------- | ------ |
+| 3.1 | Buat sistem skor    | Rommel   |        |
+| 3.2 | Buat instruksi main | Jonathan |        |
+| 3.3 | Buat Liderbord      | Osmond   |        |
 
 ## Retrospective 
 
