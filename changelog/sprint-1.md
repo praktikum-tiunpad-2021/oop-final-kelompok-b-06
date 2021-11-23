@@ -16,10 +16,9 @@
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 1.1 | Membuat Kode Dasar | Rommel Malik Kusnadi | FAILED |
-| 1.2 | Membuat Mekanik Ular | Jonathan Victor Goklas | FAILED |
-| 1.3 | Membuat Mekanik Ular | Osmond Haylim | FAILED |
+| 1.1 | Membuat Kode Dasar | Rommel Malik Kusnadi |  |
+| 1.2 | Membuat Mekanik Ular | Jonathan Victor Goklas |  |
+| 1.3 | Membuat Mekanik Ular | Osmond Haylim |  |
 
 ## Retrospective 
 
@@ -27,7 +26,6 @@ Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian t
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
 | 2.1 | Membuat Kode Dasar | Rommel Malik Kusnadi |
 | 2.2 | Membuat Mekanik Ular | Jonathan Victor Goklas |
 | 2.3 | Membuat Mekanik Ular | Osmond Haylim |
