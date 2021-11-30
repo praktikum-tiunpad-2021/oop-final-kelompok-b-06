@@ -11,26 +11,26 @@
 ## Sprint Overview
 | Planned (n) | Completed (n) |
 | ----------- | ------------- |
-| 6           | n             |
+| 6           | 7             |
 
 ## Sprint 2 Backlog
 
 | ID  | Title/Desc            | Asignee  | Status |
 | --- | --------------------- | -------- | ------ |
-| 1.2 | Buat Board Snek       | Jonathan |        |
-| 1.3 | Buat object Snek      | Rommel   |        |
-| 1.4 | Buat logika Snek      | Osmond   |        |
-| 2.1 | Buat objek fuud       | Rommel   |        |
-| 2.2 | Buat logika fuud      | Jonathan |        |
-| 2.3 | Buat input jalan Snek | Osmond   |        |
+| 1.2 | Buat Board Snek       | Osmond   | DONE   |
+| 1.3 | Buat object Snek      | Osmond   | DONE   |
+| 1.4 | Buat logika Snek      | Osmond   | DONE   |
+| 2.1 | Buat objek fuud       | Rommel   | DONE   |
+| 2.2 | Buat logika fuud      | Rommel   | DONE   |
+| 2.3 | Buat input jalan Snek | Jonathan | DONE   |
+| 3.1 | Buat Sistem skor      | Jonathan | DONE   |
 
 ## Retrospective 
 
 Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
 
 ## Next Sprint Backlog (Sprint 3)
-| ID  | Title/Desc          | Asignee  |
-| --- | ------------------- | -------- |
-| 3.1 | Buat sistem skor    | Rommel   |
-| 3.2 | Buat instruksi main | Jonathan |
-| 3.3 | Buat Liderbord      | Osmond   |
+| ID  | Title/Desc          | Asignee |
+| --- | ------------------- | ------- |
+| 3.2 | Buat instruksi main | Rommel  |
+| 3.3 | Buat Liderbord      | Osmond  |

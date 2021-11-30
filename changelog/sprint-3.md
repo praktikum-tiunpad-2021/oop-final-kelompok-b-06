@@ -11,15 +11,14 @@
 ## Sprint Overview
 | Planned (n) | Completed (n) |
 | ----------- | ------------- |
-| 3           | n             |
+| 2           | n             |
 
 ## Sprint 3 Backlog
 
-| ID  | Title/Desc          | Asignee  | Status |
-| --- | ------------------- | -------- | ------ |
-| 3.1 | Buat sistem skor    | Rommel   |        |
-| 3.2 | Buat instruksi main | Jonathan |        |
-| 3.3 | Buat Liderbord      | Osmond   |        |
+| ID  | Title/Desc          | Asignee | Status |
+| --- | ------------------- | ------- | ------ |
+| 3.2 | Buat instruksi main | Rommel  |        |
+| 3.3 | Buat Liderbord      | Osmond  |        |
 
 ## Retrospective 
 

@@ -12,14 +12,14 @@
 | ID  | Title/Desc            | Asignee  |
 | --- | --------------------- | -------- |
 | 1.1 | Inisiasi projek       | Jonathan |
-| 1.2 | Buat Board Snek       | Jonathan |
-| 1.3 | Buat object Snek      | Rommel   |
+| 1.2 | Buat Board Snek       | Osmond   |
+| 1.3 | Buat object Snek      | Osmond   |
 | 1.4 | Buat logika Snek      | Osmond   |
 | 2.1 | Buat objek fuud       | Rommel   |
-| 2.2 | Buat logika fuud      | Jonathan |
-| 2.3 | Buat input jalan Snek | Osmond   |
-| 3.1 | Buat sistem skor      | Rommel   |
-| 3.2 | Buat instruksi main   | Jonathan |
+| 2.2 | Buat logika fuud      | Rommel   |
+| 2.3 | Buat input jalan Snek | Jonathan |
+| 3.1 | Buat sistem skor      | Jonathan |
+| 3.2 | Buat instruksi main   | Rommel   |
 | 3.3 | Buat Liderbord        | Osmond   |
 
 ## Sprint Backlog Plan (Sprint 1)
