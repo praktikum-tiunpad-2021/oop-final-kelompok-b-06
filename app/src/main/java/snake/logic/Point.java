@@ -1,4 +1,4 @@
-public package snake.logic;
+package snake.logic;
 
 public class Point {
     private final int x;   
@@ -33,6 +33,4 @@ public class Point {
     public String toString() {
         return x + ", " + y;
     }
-}class Point {
-    
 }
