@@ -27,7 +27,7 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint kurang efektif karena javaFX tidak berjalan dengan baik di beberapa laptop.
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc          | Asignee |
