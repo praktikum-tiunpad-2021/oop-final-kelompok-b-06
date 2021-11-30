@@ -27,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'snake'
+    mainClass = 'snake.gui.SnakeGame'
 }
 
 javafx {
