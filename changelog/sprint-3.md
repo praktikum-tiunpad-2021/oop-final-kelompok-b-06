@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (n) | Completed (n) |
 | ----------- | ------------- |
-| 2           | n             |
+| 3           | n             |
 
 ## Sprint 3 Backlog
 
@@ -19,6 +19,7 @@
 | --- | ------------------- | ------- | ------ |
 | 3.2 | Buat instruksi main | Rommel  |        |
 | 3.3 | Buat Liderbord      | Osmond  |        |
+| 3.4 | Buat Main Menu      | Jonathan|        |
 
 ## Retrospective 
 
