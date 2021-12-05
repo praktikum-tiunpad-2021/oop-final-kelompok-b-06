@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class Board {
 
-    public static final int SIZE = 10;
+    public static final int SIZE = 8;
     public static final Color COLOR = Color.CORNSILK;
 
     private final int cols;     

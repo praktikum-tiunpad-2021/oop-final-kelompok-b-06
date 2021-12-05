@@ -1,9 +1,9 @@
 package snake.logic;
 
 import javafx.scene.canvas.GraphicsContext;
-import snake.gui.Pixel;
+import snake.gui.Painter;
 
-public class GameLoop implements Runnable {
+public class GameLoop extends Thread {
     private final Board grid;
     private final GraphicsContext context;
     private int frameRate;
@@ -30,11 +30,11 @@ public class GameLoop implements Runnable {
 
             keyIsPressed = false;
             grid.update();
-            Pixel.paint(grid, context);
+            Painter.paint(grid, context);
 
             if (!grid.getSnake().isSafe()) {
                 pause();
-                Pixel.paintResetMessage(context);
+                Painter.paintResetMessage(context);
                 break;
             }
 
@@ -50,9 +50,9 @@ public class GameLoop implements Runnable {
         }
     }
 
-    public void stop() {
-        running = false;
-    }
+    // public void stop() {
+    //     running = false;
+    // }
 
     public boolean isKeyPressed() {
         return keyIsPressed;
@@ -62,9 +62,9 @@ public class GameLoop implements Runnable {
         keyIsPressed = true;
     }
 
-    public void resume() {
-        paused = false;
-    }
+    // public void lanjut() {
+    //     paused = false;
+    // }
 
     public void pause() {
         paused = true;

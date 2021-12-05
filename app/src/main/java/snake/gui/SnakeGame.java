@@ -1,8 +1,8 @@
 package snake.gui;
 
-import snake.logic.GameLoop;
-import snake.logic.Board;
-import snake.logic.Snek;
+import snake.logic.*;
+import snake.gui.Painter;
+import java.io.*;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -12,12 +12,12 @@ import javafx.stage.Stage;
 
 public class SnakeGame extends Application {
 
-    private static final int WIDTH = 1000;
-    private static final int HEIGHT = 1000;
+    private static final int WIDTH = 800;
+    private static final int HEIGHT = 800;
 
     private GameLoop loop;
     private Board grid;
-    private GraphicsContext context;
+    private static GraphicsContext context;
 
     public static void main(String[] args) {
         Application.launch(args);
@@ -52,7 +52,14 @@ public class SnakeGame extends Application {
                 case ENTER:
                     if (loop.isPaused()) {
                         reset();
-                        (new Thread(loop)).start();
+                        loop.stop();
+                        File file = new File("sampleFile.txt");
+                        if(file.isFile()){
+                            Painter.waiting(context);
+                        }else{
+                            System.out.println(file + " Do not Exist or it is a directory");
+                        }
+                        // (new Thread(loop)).start();
                     }
                 default :
                     break;
@@ -66,7 +73,7 @@ public class SnakeGame extends Application {
         Scene scene = new Scene(root);
 
         primaryStage.setResizable(false);
-        primaryStage.setTitle("Snake");
+        primaryStage.setTitle("Snek");
         primaryStage.setOnCloseRequest(e -> System.exit(0));
         primaryStage.setScene(scene);
         primaryStage.show();
@@ -77,6 +84,6 @@ public class SnakeGame extends Application {
     private void reset() {
         grid = new Board(WIDTH, HEIGHT);
         loop = new GameLoop(grid, context);
-        Pixel.paint(grid, context);
+        Painter.paint(grid, context);
     }
 }

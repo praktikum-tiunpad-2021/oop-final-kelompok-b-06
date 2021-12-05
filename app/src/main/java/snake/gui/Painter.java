@@ -10,7 +10,7 @@ import javafx.scene.text.Font;
 
 import static snake.logic.Board.SIZE;
 
-public class Pixel {
+public class Painter {
     public static void paint(Board grid, GraphicsContext gc) {
         gc.setFill(Board.COLOR);
         gc.fillRect(0, 0, grid.getWidth(), grid.getHeight());
@@ -52,6 +52,12 @@ public class Pixel {
     public static void paintResetMessage(GraphicsContext gc) {
         gc.setFill(Color.GRAY);
         gc.setFont(new Font("Montserrat", 60));
-        gc.fillText("Press Enter to reset.", 250, 500);
+        gc.fillText("Game Over", 240, 330);
+        gc.fillText("Press Enter to reset.", 150, 410);
+    }
+    public static void waiting(GraphicsContext gc) {
+        gc.setFill(Color.GRAY);
+        gc.setFont(new Font("Montserrat", 60));
+        gc.fillText("Loading...", 150, 600);
     }
 }
