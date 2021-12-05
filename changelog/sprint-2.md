@@ -34,3 +34,4 @@ Sprint kurang efektif karena javaFX tidak berjalan dengan baik di beberapa lapto
 | --- | ------------------- | ------- |
 | 3.2 | Buat instruksi main | Rommel  |
 | 3.3 | Buat Liderbord      | Osmond  |
+| 3.4 | Buat Main Menu      | Jonathan|
