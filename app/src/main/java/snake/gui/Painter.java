@@ -60,4 +60,9 @@ public class Painter {
         gc.setFont(new Font("Montserrat", 60));
         gc.fillText("Loading...", 150, 600);
     }
+    public static void notLoaded(GraphicsContext gc) {
+        gc.setFill(Color.GRAY);
+        gc.setFont(new Font("Montserrat", 60));
+        gc.fillText("Loading Failed", 150, 600);
+    }
 }

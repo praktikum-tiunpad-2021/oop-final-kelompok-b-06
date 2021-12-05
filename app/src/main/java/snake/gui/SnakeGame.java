@@ -57,7 +57,7 @@ public class SnakeGame extends Application {
                         if(file.isFile()){
                             Painter.waiting(context);
                         }else{
-                            System.out.println(file + " Do not Exist or it is a directory");
+                            Painter.notLoaded(context);
                         }
                         // (new Thread(loop)).start();
                     }
