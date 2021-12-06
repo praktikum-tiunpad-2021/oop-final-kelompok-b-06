@@ -1,7 +1,6 @@
 package snake.logic;
-import java.io.Serializable; 
 
-public class Score implements Serializable{
+public class Score{
     private String name;
     private int score;
 

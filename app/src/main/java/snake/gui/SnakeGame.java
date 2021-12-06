@@ -51,14 +51,15 @@ public class SnakeGame extends Application {
                     break;
                 case ENTER:
                     if (loop.isPaused()) {
-                        reset();
+                        
                         loop.stop();
                         File file = new File("sampleFile.txt");
                         if(file.isFile()){
                             Painter.waiting(context);
                         }else{
-                            Painter.notLoaded(context);
+                            Painter.leaderBoard(grid,context);
                         }
+                        // reset();
                         // (new Thread(loop)).start();
                     }
                 default :

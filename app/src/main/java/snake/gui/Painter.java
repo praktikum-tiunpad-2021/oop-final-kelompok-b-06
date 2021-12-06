@@ -58,11 +58,25 @@ public class Painter {
     public static void waiting(GraphicsContext gc) {
         gc.setFill(Color.GRAY);
         gc.setFont(new Font("Montserrat", 60));
-        gc.fillText("Loading...", 150, 600);
+        gc.fillText("Loading...", 250, 500);
     }
     public static void notLoaded(GraphicsContext gc) {
         gc.setFill(Color.GRAY);
         gc.setFont(new Font("Montserrat", 60));
-        gc.fillText("Loading Failed", 150, 600);
+        gc.fillText("Loading Failed", 200, 500);
+    }
+    public static void leaderBoard(Board grid, GraphicsContext gc) {
+        //clear board
+        gc.setFill(Board.COLOR);
+        gc.fillRect(0, 0, grid.getWidth(), grid.getHeight());
+
+        //show leaderboard
+        gc.setFill(Color.GRAY);
+        gc.setFont(new Font("Montserrat", 60));
+        gc.fillText("Leaderboard", 100, 200);
+        gc.fillText("XXX  300", 100, 300);
+        gc.fillText("XXX  300", 100, 380);
+        gc.fillText("XXX  300", 100, 460);
+
     }
 }
