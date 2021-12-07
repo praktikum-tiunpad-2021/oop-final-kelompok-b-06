@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 3)
 | From 01/12/2021 to 07/12/2021
 
-## Team (Insert your name)
+## Team 6
 | NPM          | Name                   |
 | ------------ | ---------------------- |
 | 140810200002 | Rommel Malik Kusnadi   |
@@ -11,17 +11,17 @@
 ## Sprint Overview
 | Planned (n) | Completed (n) |
 | ----------- | ------------- |
-| 3           | n             |
+| 3           | 1             |
 
 ## Sprint 3 Backlog
 
-| ID  | Title/Desc          | Asignee | Status |
-| --- | ------------------- | ------- | ------ |
-| 3.2 | Buat instruksi main | Rommel  |        |
-| 3.3 | Buat Liderbord      | Osmond  |        |
-| 3.4 | Buat Main Menu      | Jonathan|        |
+| ID  | Title/Desc          | Asignee  | Status |
+| --- | ------------------- | -------- | ------ |
+| 3.2 | Buat instruksi main | Rommel   | FAILED |
+| 3.3 | Buat Liderbord      | Osmond   | DONE   |
+| 3.4 | Buat Main Menu      | Jonathan | FAILED |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint-3 hanya dapat memenuhi 1 sprint yang direncanakan.
 
