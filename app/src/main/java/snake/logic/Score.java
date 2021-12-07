@@ -8,16 +8,12 @@ public class Score{
         this.name = nama;
         this.score = skor;
     }
-
+    //get
     public String getName(){
-        return this.name;
-    }
-
+        return this.name;}
     public int getScore(){
-        return this.score;
-    }
-
+        return this.score;}
+    //other
     public String toString() {
-        return name + ", " + score;
-    }
+        return "(" + score  + ")  " + name;}
 }

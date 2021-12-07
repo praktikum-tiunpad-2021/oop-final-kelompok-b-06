@@ -33,21 +33,15 @@ public class Snek {
         Point in3 = new Point((initialPoint.getX()+3),initialPoint.getY());
         growTo(in3);
         Point in4 = new Point((initialPoint.getX()+4),initialPoint.getY());
-        growTo(in4);
-    }
+        growTo(in4);}
 
     //Logic
     private void growTo(Point point) {
         length++;
-        checkAndAdd(point);
-    }
-
+        checkAndAdd(point);}
     private void shiftTo(Point point) {
-        // The head goes to the new location
         checkAndAdd(point);
-        // The last/oldest position is dropped
-        points.remove(0);
-    }
+        points.remove(0);}
 
     private void checkAndAdd(Point point) {
         // point = grid.wall(point);
@@ -55,38 +49,28 @@ public class Snek {
         if (point.getX() >= grid.getRows() || point.getY() >= grid.getCols()) safe = false;
         if (point.getX() < 0 || point.getY() < 0) safe = false;
         points.add(point);
-        head = point;
-    }
+        head = point;}
 
     //get n set
     public List<Point> getPoints() {
-        return points;
-    }
-
+        return points;}
     public boolean isSafe() {
-        return safe;
-    }
-
+        return safe;}
     public Point getHead() {
-        return head;
-    }
-
+        return head;}
     private boolean isStill() {
-        return xVelocity == 0 & yVelocity == 0;
-    }
+        return xVelocity == 0 & yVelocity == 0;}
 
     //Movement
     public void move() {
         if (!isStill()) {
             shiftTo(head.translate(xVelocity, yVelocity));
-        }
-    }
+        }}
 
     public void extend() {
         if (!isStill()) {
             growTo(head.translate(xVelocity, yVelocity));
-        }
-    }
+        }}
 
     public void setUp(GameLoop loop) {
         if (yVelocity == 1 && length > 1) return;
@@ -94,8 +78,7 @@ public class Snek {
         if (isStill()) return;
         xVelocity = 0;
         yVelocity = -1;
-        loop.setKeyPressed();
-    }
+        loop.setKeyPressed();}
 
     public void setDown(GameLoop loop) {
         if (yVelocity == -1 && length > 1) return;
@@ -103,8 +86,7 @@ public class Snek {
         if (isStill()) return;
         xVelocity = 0;
         yVelocity = 1;
-        loop.setKeyPressed();
-    }
+        loop.setKeyPressed();}
 
     public void setLeft(GameLoop loop) {
         if (xVelocity == 1 && length > 1) return;
@@ -112,8 +94,7 @@ public class Snek {
         if (isStill()) return;
         xVelocity = -1;
         yVelocity = 0;
-        loop.setKeyPressed();
-    }
+        loop.setKeyPressed();}
 
     public void setRight(GameLoop loop) {
         if (xVelocity == -1 && length > 1) return;
@@ -121,11 +102,8 @@ public class Snek {
         if (isStill()) return;
         xVelocity = 1;
         yVelocity = 0;
-        loop.setKeyPressed();
-    }
+        loop.setKeyPressed();}
 
     public void go() {
         xVelocity = 1;
-        yVelocity = 0;
-    }
-}
+        yVelocity = 0;}}

@@ -35,6 +35,11 @@ public class GameLoop extends Thread {
             if (!grid.getSnake().isSafe()) {
                 pause();
                 Painter.paintResetMessage(context);
+                // try {
+                //     Thread.sleep((long) (3000));
+                // } catch (InterruptedException ignore) {
+                // }
+                Painter.leaderBoard(grid,context);
                 break;
             }
 

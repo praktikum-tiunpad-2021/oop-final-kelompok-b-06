@@ -22,8 +22,7 @@ public class Board {
 
         // menginisasi snake di tengah-tengah layar
         snake = new Snek(this, new Point(((rows / 2)-4), cols / 2));
-        food = new Fuud(getRandomPoint());
-    }
+        food = new Fuud(getRandomPoint());}
 
     // public Point wall(Point point) {
     //     int x = point.getX();
@@ -41,8 +40,7 @@ public class Board {
         do {
             point = new Point(random.nextInt(rows), random.nextInt(cols));
         } while (point.equals(snake.getHead()));
-        return point;
-    }
+        return point;}
 
     public void update() {
         if (food.getPoint().equals(snake.getHead())) {
