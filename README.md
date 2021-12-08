@@ -37,15 +37,15 @@ Untuk memulai aplikasi, pertama kita gradle run, lalu kita dapat jalankan Snake 
 
 ## Classes Used
 
-Painter.java = Sebagai paint dari scene
-SnakeGame.java = Sebagai main dari projek
-Board.java = Sebagai board dari projek
-Fuud.java = Sebagai objek dari Food
-GameLoop.java = Sebagai logika game Snake
-Leaderboard.java = Sebagai leaderboard game
-Point.java = Sebagai logika dari koordinat x dan y
-Score.java = Sebagai logika dari skor Snake
-Snek.java = Sebagai objek dari Snake
+- Painter.java = Sebagai paint dari scene
+- SnakeGame.java = Sebagai main dari projek
+- Board.java = Sebagai board dari projek
+- Fuud.java = Sebagai objek dari Food
+- GameLoop.java = Sebagai logika game Snake
+- Leaderboard.java = Sebagai leaderboard game
+- Point.java = Sebagai logika dari koordinat x dan y
+- Score.java = Sebagai logika dari skor Snake
+- Snek.java = Sebagai objek dari Snake
 
 ![UML project oop](https://media.discordapp.net/attachments/412931424069484544/917956551958990918/UML_SnakeGame.drawio.png?width=566&height=569)
 
