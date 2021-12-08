@@ -4,7 +4,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**Projek ini merupakan projek yang dibuat oleh Kelompok B-06, Kelas Pemrograman Berorientasi Objek, Teknik Informatika Universitas Padjadjaran. Projek ini mengimplementasikan javaFX dan Gradle. Projek ini dibuat untuk memenuhi tugas akhir (final project) kelas Pemrograman Berorientasi Objek, Teknik Informatika Universitas Padjadjaran.**
 
 ## Credits
 | NPM          | Name                   |
@@ -33,14 +33,22 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+Untuk memulai aplikasi, pertama kita gradle run, lalu kita dapat jalankan Snake dengan menekan spasi pada keyboard. Untuk menggerakkan Snake, kita gunakan arrow pada keyboard.
 
 ## Classes Used
 
-TO;DO
+Painter.java = Sebagai paint dari scene
+SnakeGame.java = Sebagai main dari projek
+Board.java = Sebagai board dari projek
+Fuud.java = Sebagai objek dari Food
+GameLoop.java = Sebagai logika game Snake
+Leaderboard.java = Sebagai leaderboard game
+Point.java = Sebagai logika dari koordinat x dan y
+Score.java = Sebagai logika dari skor Snake
+Snek.java = Sebagai objek dari Snake
 
-![UML project oop]()
+![UML project oop](https://media.discordapp.net/attachments/412931424069484544/917956551958990918/UML_SnakeGame.drawio.png?width=566&height=569)
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+Aplikasi game Snake menggunakan javaFX

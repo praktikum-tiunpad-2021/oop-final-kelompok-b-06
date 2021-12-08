@@ -1,3 +1,3 @@
 # Challenge Guidelines
 
-Copy the guidelines into this markdown file
+Dapat menyimpan dan menampilkan leaderboard dengan 10 score terbaik.
