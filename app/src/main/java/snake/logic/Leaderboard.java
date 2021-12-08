@@ -93,7 +93,6 @@ public class Leaderboard implements Serializable {
                 this.data.add(2, high);}
             
             myObj.delete();
-            
             inputz();
             myReader.close();
             } catch (FileNotFoundException f) {
