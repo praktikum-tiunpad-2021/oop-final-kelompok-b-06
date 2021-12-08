@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 2)
 | From 24/11/2021 to 30/11/2021
 
-## Team (Insert your name)
+## Team 6
 | NPM          | Name                   |
 | ------------ | ---------------------- |
 | 140810200002 | Rommel Malik Kusnadi   |
